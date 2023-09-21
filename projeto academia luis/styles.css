@@ -1,0 +1,35 @@
+@import url(styles/header.css);
+
+:root{
+    --cor-de-fundo: #b40000;
+    --cor-cabecalho: #ffffff;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    margin:0;
+    background-image: url("img/arnoldo.avif");
+    color: white;
+}
+cabeçalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
